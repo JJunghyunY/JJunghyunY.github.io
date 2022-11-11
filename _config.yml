@@ -1,33 +1,33 @@
-# Site settings 配置站点
+# Site settings 사이트 구성
 title: 'your awesome title'
 description: 'your web description'
 keywords: 'your web keywords, another keywords'
 url: 'https://JJunghyunY.github.io' # your host
 
-# nav 中文字符空格：&emsp;
-nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  수정함: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+# nav 공간：&emsp;
+nav: # 6개의 태그를 가장 잘 경험하고 태그당 4자 이하 사용하는 것이 좋습니다.
+  Home: '/'
+  Tags: '/tags.html'
+  Timeline: '/timeline.html'
+  About: '/about.html'
+  FriendLink: '/friendLink.html'
 
-# 博主
+# 블로거
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
+name: 'Junghyun Yoo'
+NickName: 'junyoo'
 webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+bio: 'bio'
 about: true
-aboutyou: 'your introduction'
+aboutyou: 'logging about swift'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: false
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  weixin: ''
+  qq: ''
   github: ''
   Codepen: ''
   weibo: ''
@@ -40,51 +40,51 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   juejin: ''
   twitch: ''
 
-# 分页
+# 쪽수
 paginate: 2
 paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2022
 
 # Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-# 代码高亮 使用rouge
+# highlighter rouge
 highlighter: rouge
-# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+# 코드 강조 테마는 pygments 테마를 사용합니다. autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 원하는 테마 이름을 선택하고 아래 작은 따옴표를 입력하십시오.
 pygmentsTheme: 'default'
 
-# 友情链接
+# 연결
 friends:
   jekyll: 'https://www.jekyll.com.cn/'
 
-# 评论 最佳体验 在disqus、livere和Gitment之间三选一
-# disqus 评论
+# 댓글 최고의 경험 disqus, livere 및 Gitment 중에서 선택
+# disqus 논평
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
-# 来必力评论
+# 빌리 댓글로 오세요
 livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment评论 OAuth Application
+# Gitment논평 OAuth Application
 Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+Gitment_owner: '' # github 사용자 이름
+Gitment_repo: '' # github 블로그가 저장된 저장소 이름
+client_id: '' # OAuth 애플리케이션 등록 후 얻은 client_id
+client_secret: '' # OAuth 애플리케이션 등록 후 얻은 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: false
 social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
-# 百度统计 在baidu-url里填写自己相关的url代码
+# Baidu Statistics baidu-url에 자신의 URL 코드 입력
 baidu: false
 baidu-url: ''
-# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+# Google Analytics google-ID에 Google Analytics에서 얻은 추적 ID를 입력
 google: false
 google-ID: ''
 
-# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+# 블로그 헤더 정보 대체 색상 (이 부분은 사이트에서 사이트 변수 역할을 하지 않으며, 페이지 변수 역할을 하도록 포스트 헤더 정보에 작성)
 color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
