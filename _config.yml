@@ -10,14 +10,14 @@ nav: # 6개의 태그를 가장 잘 경험하고 태그당 4자 이하 사용하
   Tags: '/tags.html'
   Timeline: '/timeline.html'
   About: '/about.html'
-  FriendLink: '/friendLink.html'
+  <!--FriendLink: '/friendLink.html'-->
 
 # 블로거
 author: true
 name: 'Junghyun Yoo'
 NickName: 'junyoo'
-webtitle: 'your awesome webtitle'
-bio: 'bio'
+webtitle: '/var/log/junyoo'
+bio: ''
 about: true
 aboutyou: 'logging about swift'
 portraits: '/assets/profile.jpeg' # your portraits image file path
@@ -58,8 +58,10 @@ highlighter: rouge
 pygmentsTheme: 'default'
 
 # 연결
+<!--
 friends:
   jekyll: 'https://www.jekyll.com.cn/'
+-->
 
 # 댓글 최고의 경험 disqus, livere 및 Gitment 중에서 선택
 # disqus 논평
