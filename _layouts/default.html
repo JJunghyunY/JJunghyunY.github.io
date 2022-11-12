@@ -1,15 +1,15 @@
-<!-- 首页及其他页面的布局-Layout -->
+<!-- 홈 페이지 및 기타 페이지의 Layout -->
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 引入head标签 -->
+<!-- head 태그 -->
 {% include head.html %}
 </head>
 <body>
-<!-- 页面主体 -->
+<!-- 페이지 본문 -->
 {{ content }}
 
-<!-- 引用wow.js的动画效果 -->
+<!-- wow.js 애니메이션 효과 -->
 <script src="/assets/js/wow.js"></script>
 <script>
     var wow = new WOW({
@@ -21,10 +21,10 @@
     });
     wow.init();
 </script>
-<!-- 页面刷新回到顶部 -->
+<!-- 페이지 새로고침 맨 위로 -->
 <script>
     window.onbeforeunload = function(){
-        //刷新后页面自动回到顶部
+        //페이지 새로고침 맨 위로
         document.documentElement.scrollTop = 0;  //ie下
         document.body.scrollTop = 0;  //非ie
     }

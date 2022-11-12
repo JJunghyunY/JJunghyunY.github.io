@@ -16,7 +16,7 @@
       (function() { // DON'T EDIT BELOW THIS LINE
         var d = document,
           s = d.createElement('script');
-        /*写入自己的disqus信息*/
+        /*나만의 disqus 정보를 작성하세요*/
         s.src = '{{ site.disqus_url }}';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
@@ -31,7 +31,7 @@
       <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}"></div>
     </section>
 
-    <!-- 来必力City版安装代码 -->
+    <!-- Bili City 버전 설치 코드로 오세요 -->
     <script type="text/javascript">
        (function(d, s) {
            var j, e = d.getElementsByTagName(s)[0];
@@ -45,8 +45,8 @@
            e.parentNode.insertBefore(j, e);
        })(document, 'script');
     </script>
-    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-    <!-- City版安装代码已完成 -->
+    <noscript>정상적인 사용을 위해 JavaScript를 활성화를 해 주세요</noscript>
+    <!-- City 버전 설치 코드 완료 -->
 
 {% endif %}
 
@@ -59,7 +59,7 @@
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: '{{ page.id }}', // 可选。默认为 location.href
+  id: '{{ page.id }}', // 선택옵션, 기본값은 location.href
   owner: '{{ site.Gitment_owner }}',
   repo: '{{ site.Gitment_repo }}',
   oauth: {

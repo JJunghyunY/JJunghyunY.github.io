@@ -1,7 +1,7 @@
 var leftTab = document.getElementById('left-tab'),
     rightTab = document.getElementById('right-tab');
 
-// 垃圾方法，该方法必须等页面加载玩才有效
+// 가비지 메서드, 메서드는 페이지가 재생될 때까지 기다려야 합니다.
 // window.onload = function(){
 //   btn[0].onmouseover=function() {
 //     leftTab.style.display="block";

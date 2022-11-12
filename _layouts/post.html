@@ -1,20 +1,20 @@
-<!-- 博文的布局-Layout -->
+<!-- 홈 페이지 및 기타 페이지의 Layout -->
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 引入head标签 -->
+<!-- head 태그 -->
 {% include head.html %}
 {% include androidColor.html %}
 </head>
 <body>
 
-<!-- 顶部锚点 -->
+<!-- 탑 앵커 -->
 <a id="htmlup" name="htmlup"></a>
-<!-- 引入博文顶部选项 -->
+<!-- 블로그 게시물 상단 옵션 소개 -->
 {% include post-header.html %}
-<!-- 引入移动下拉选项 -->
+<!-- 모바일 드롭다운 옵션 도입 -->
 {% include boot.html %}
-<!-- 引入博文顶部样式 -->
+<!-- 블로그 포스트 탑 스타일 소개 -->
 {% include post-title.html %}
 <div class="markdown-body fadeInUp animated">
 
@@ -30,22 +30,22 @@
     {% endif %}
   {% endif %}
 
-  <!-- 文章内容 -->
+  <!-- 기사 내용 -->
   {{ page.content }}
-  <!-- 引入share模块 -->
+  <!-- share 모듈 -->
   {% include share.html %}
 </div>
 
-<!-- 底部锚点 -->
+<!-- 하단 앵커 -->
 <a id="htmldown" name="htmldown"></a>
-<!-- 引入评论模块 -->
+<!-- 댓글 모듈 도입 -->
 {% include comment.html %}
-<!-- 引入goto模块 -->
+<!-- goto 모듈 소개 -->
 {% include goto.html %}
-<!-- 引入页面底部模块 -->
+<!-- 페이지 하단 모듈 소개 -->
 {% include footer.html %}
 
-<!-- 引用wow.js的动画效果 -->
+<!-- wow.js 애니메이션 효과 -->
 <script src="/assets/js/wow.js"></script>
 <script>
     var wow = new WOW({
@@ -57,10 +57,10 @@
     });
     wow.init();
 </script>
-<!-- 页面刷新回到顶部 -->
+<!-- 페이지 새로고침 맨 위로 -->
 <script>
     window.onbeforeunload = function(){
-        //刷新后页面自动回到顶部
+        //페이지 새로고침 맨 위로
         document.documentElement.scrollTop = 0;  //ie下
         document.body.scrollTop = 0;  //非ie
     }
