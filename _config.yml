@@ -1,7 +1,7 @@
 # Site settings 사이트 구성
-title: 'your awesome title'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
+title: '/var/log/junyoo'
+description: 'logging swift by Junyoo'
+keywords: 'apple, swift, iOS'
 url: 'https://JJunghyunY.github.io' # your host
 
 # nav 공간：&emsp;
@@ -16,15 +16,15 @@ author: true
 name: 'Junghyun Yoo'
 NickName: 'junyoo'
 webtitle: '/var/log/junyoo'
-bio: ''
+bio: 'he/him'
 about: true
 aboutyou: 'logging about swift'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/profile.png' # your portraits image file path
 
 # SNS
 SNS: false
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
+  mail: 'wjdgus995@icloud.com'
   weixin: ''
   qq: ''
   github: ''
