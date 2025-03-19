@@ -24,7 +24,7 @@ portraits: '/assets/profile.png' # your portraits image file path
 # SNS
 SNS: false
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'wjdgus995@icloud.com'
+  mail: ''
   weixin: ''
   qq: ''
   github: ''
